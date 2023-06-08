@@ -518,15 +518,15 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Services
+# porfolio
 --------------------------------------------------------------*/
-.services .icon-box {
+.porfolio .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
-.services .icon-box .icon {
+.porfolio .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -539,11 +539,11 @@ section .container {
   margin-bottom: 20px;
   transform-style: preserve-3d;
 }
-.services .icon-box .icon i {
+.porfolio .icon-box .icon i {
   color: #fff;
   font-size: 28px;
 }
-.services .icon-box .icon::before {
+.porfolio .icon-box .icon::before {
   position: absolute;
   content: "";
   left: -8px;
@@ -555,33 +555,33 @@ section .container {
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
-.services .icon-box h4 {
+.porfolio .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
-.services .icon-box h4 a {
+.porfolio .icon-box h4 a {
   color: #fff;
 }
-.services .icon-box p {
+.porfolio .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
-.services .icon-box:hover {
+.porfolio .icon-box:hover {
   background: #1888d2;
   border-color: #df0d0d;
 }
-.services .icon-box:hover .icon {
+.porfolio .icon-box:hover .icon {
   background: #fff;
 }
-.services .icon-box:hover .icon i {
+.porfolio .icon-box:hover .icon i {
   color: #df0d0d;
 }
-.services .icon-box:hover .icon::before {
+.porfolio .icon-box:hover .icon::before {
   background: #df0d0d;
 }
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.porfolio .icon-box:hover h4 a, .porfolio .icon-box:hover p {
   color: #fff;
 }
 
